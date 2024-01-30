@@ -1,3 +1,4 @@
+import { Button } from "../../components/Button"
 import { Container } from "./styles"
 export function Home() {
   return (
@@ -10,12 +11,12 @@ export function Home() {
         <span>"Front-end developer and avid reader."</span>
       </header>
       <main>
-        <button>GitHub</button>
-        <button>GitHub</button>
-        <button>GitHub</button>
-        <button>GitHub</button>
-        <button>GitHub</button>
-        <button>GitHub</button>
+        <Button title="GitHub"/>
+        <Button title="Frontend Mentor"/>
+        <Button title="Linkedin"/>
+        <Button title="Twitter"/>
+        <Button title="Instagram"/>
+
       </main>
       
     </Container>
