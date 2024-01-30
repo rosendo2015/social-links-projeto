@@ -13,4 +13,15 @@ export default createGlobalStyle`
         color: ${({ theme }) => theme.COLORS.White};
         -webkit-font-smoothing: antialiased;
     }
+    .attribution {
+        font-size: 11px;
+        margin-bottom: 0.5rem;
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(228, 45%, 44%);   
+    }
+    .attribution a:hover {
+        color: ${({theme})=>theme.COLORS.Green};
+    }
 `;

@@ -8,9 +8,9 @@ border: none;
 color: ${({theme})=>theme.COLORS.White};
 margin-bottom: 1rem;
 cursor: pointer;
+font-weight: 700;
 &&:hover{
     background: ${({theme})=>theme.COLORS.Green};
     color: ${({theme})=>theme.COLORS.Dark_Grey};
-
 }
 `

@@ -21,10 +21,10 @@ export function Home() {
       
     </Container>
     <footer>
-        <p>
+        <p className="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         </p>
-        <p>
+        <p className="attribution">
           Coded by <a href="#">Francisco Rosendo</a>.
         </p>
       </footer>
